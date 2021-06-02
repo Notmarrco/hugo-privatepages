@@ -1,6 +1,16 @@
 # Hugo Private Pages
 
-Add :
+```sh
+git submodule add https://github.com/notmarrco/hugo-privatepages.git themes/notmarrco.hugo-privatepages
+```
+
+In your ` config.toml` add :
+
+```toml
+themes = ["notmarrco.hugo-privatepages" , ....]
+```
+
+Then add :
 
 ```md
 ---
